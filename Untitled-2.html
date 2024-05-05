@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <style>
+        h1 {text-align: center;}
+        h1 {font-size:70;}
+        h1 {font-family: Arial, sans-serif;}
+        p {font-family:Verdana, Geneva, Tahoma, sans-serif}
+        p {font-size:27;}
+       
+        </style>   
+    <h1>Apple</h1>
+    <title>Project 😎</title>
+    <style>
+    .topnav {
+        background-color: #000000;
+        overflow: hidden;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .topnav a {
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25;
+        font-style:normal;
+        font-variant: small-caps;
+        font-family: Arial, sans-serif;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+    
+    .square {
+        height: 500px;
+        width: 400px;
+        background-image:url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?w=1380&t=st=1704095728~exp=1704096328~hmac=78b0264ec6a1e7904c3aaa2f0fbd1f01685f4a2a09ea490f3da75bafeb29434d");
+        float: right;
+        border: 1px solid #888;
+        margin: 5px;
+    }
+    
+    body {
+        background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?w=1380&t=st=1704095728~exp=1704096328~hmac=78b0264ec6a1e7904c3aaa2f0fbd1f01685f4a2a09ea490f3da75bafeb29434d");
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+    
+    img {
+     size: 10%;
+     padding: 25px;
+     float: right;
+     width: 350px;
+     border-radius: 0%;   
+    }
+    .dark-mode{
+        background-image: url("https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149151738.jpg?w=1380&t=st=1704525753~exp=1704526353~hmac=6267af8af9adc81eba29745df85c0af7851992cde5b7e9ac0e7c8d150931a89b");
+        color: white;
+
+    }
+    button{
+        color: white;
+        width: 200px;
+        height: 30;
+        background-color: #000000;
+        text-decoration: none;
+        font-size: 20;
+        font-style:normal;
+        font-variant: small-caps;
+        font-family: Arial, sans-serif; 
+    }
+    button:hover{
+        background-color: #4CAF50;
+    }
+ 
+</style>
+</head>
+<body>
+    <button onclick="darkmode()">Theme</button>
+
+<div class="topnav">
+
+    <a href="http://127.0.0.1:3000/Untitled-1.html">Home</a>
+    <a href="http://127.0.0.1:3000/Untitled-2.html" class="active">About</a>
+    <a href="http://127.0.0.1:3000/Untitled-3.html">Book</a>
+    <a href="http://127.0.0.1:3000/Untitled-4.html">Price</a>
+    <a href="http://127.0.0.1:3000/Untitled-5.html">Contact Us</a>
+</div>
+
+</body>
+<div class="square">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg">
+</div>
+
+<p>Apple Inc. is an American multinational technology company headquartered in Cupertino, California. As of March 2023, Apple is the world's largest company by market capitalization, and with US$394.3 billion the largest technology company by 2022 revenue.
+     As of June 2022, Apple is the fourth-largest personal computer vendor by unit sales; the largest manufacturing company by revenue; and the second-largest mobile phone manufacturer in the world. It is considered one of the Big Five American information 
+    technology companies, alongside Alphabet (parent company of Google), Amazon, Meta (parent company of Facebook), and Microsoft.Apple was founded as Apple Computer Company on April 1, 1976, by Steve Wozniak, Steve Jobs and Ronald Wayne to develop and sell 
+    Wozniak's Apple I personal computer. It was incorporated by Jobs and Wozniak as Apple Computer, Inc. in 1977. The company's second computer, the Apple II, became a best seller and one of the first mass-produced microcomputers. Apple went public in 1980 to 
+    instant financial success. The company developed computers featuring innovative graphical user interfaces, including the 1984 original Macintosh, announced that year in a critically acclaimed advertisement called "1984". By 1985, the high cost of its products,
+    and power struggles between executives, caused problems. Wozniak stepped back from Apple and pursued other ventures, while Jobs resigned and founded NeXT, taking some Apple employees with him.As the market for personal computers expanded and evolved 
+    throughout the 1990s, Apple lost considerable market share to the lower-priced duopoly of the Microsoft Windows operating system on Intel-powered PC clones (also known as "Wintel"). In 1997, weeks away from bankruptcy, the company bought NeXT to resolve Apple's unsuccessful operating system strategy and entice Jobs back to the company. Over the next decade, Jobs guided Apple back to profitability through a number of tactics including introducing the iMac, iPod, iPhone and iPad to critical acclaim, launching the "Think different" campaign and other memorable advertising campaigns, opening the Apple Store retail chain, and acquiring numerous companies to broaden the company's product portfolio. When Jobs resigned in 2011 for health reasons, and died two months later, he was succeeded as CEO by Tim Cook.
+    Apple became the first publicly traded U.S. company to be valued at over $1 trillion in August 2018, then at $2 trillion in August 2020, and at $3 trillion in January 2022. In June 2023, it was valued at just over $3 trillion The company receives criticism
+    regarding the labor practices of its contractors, its environmental practices, and its business ethics, including anti-competitive practices and materials sourcing. Nevertheless, the company has a large following and enjoys a high level of brand loyalty. It 
+    has also been consistently ranked as one of the world's most valuable brands.</p>
+</head>
+<script>
+    function darkmode(){
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
+</html>
